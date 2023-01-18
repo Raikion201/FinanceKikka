@@ -4,9 +4,7 @@ require("dotenv").config({
 
 
 module.exports = {
-  flags: {
-    DEV_SSR: true
-  },
+
   siteMetadata: {
     title: "Kinka Finance",
     description: "Official Contentful Gatsby Starter",
