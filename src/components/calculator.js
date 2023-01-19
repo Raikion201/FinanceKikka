@@ -27,7 +27,7 @@ const Calculator = ({btnUrl,btnLabel}) => {
       })
     },[year,rate,purchase,payment,loanAmount])
   return (
-    <div className='md:grid md:grid-cols-2'>
+    <div id='calculator' className='md:grid md:grid-cols-2'>
       {/* Text Block */}
       <div data-aos="fade-right"  className='md:order-2 h-fit pb-16 text-center  md:text-left px-4 md:pl-8 '>
         <div>

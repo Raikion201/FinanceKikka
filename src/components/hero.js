@@ -21,7 +21,7 @@ const Hero = ({ image, title, description,btnUrl,btnLabel }) => {
 // }
   const finalDescription = descriptionParsed.content[0].content[0].value
     return (  
-  <div data-aos="fade-right" className= 'bg-gray-700'>
+  <div  data-aos="fade-right" className= 'bg-gray-700'>
     <Navigation/>
     <div className='px-6 md:px-0 md:pl-8 py-16 text-center md:text-left  md:py-0 md:pt-16 lg:pt-40 lg:leading-loose md:grid md:grid-cols-2'>
       <div className='md:ml-8'>

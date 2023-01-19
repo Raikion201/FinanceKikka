@@ -10,7 +10,7 @@ const Intro = ( {data} ) => {
    const textData = data.data
    const image = data.check.gatsbyImage
   return (
-    <div className='py-16 '>
+    <div id='service' className='py-16 '>
         <div data-aos="fade-right"  className='mx-8 mb-4 text-3xl md:text-4xl text-center leading-loose md:leading-loose font-black '>
         High Quality Output,<br/> Awesome Service
         </div>

@@ -41,7 +41,7 @@ export default RootIndex
 
 
 export const pageQuery = graphql`
- {
+{
   contentfulBlogPost(contentful_id: {eq: "WNEyjI4aGjqthWVf8QV3c"}) {
     heroImage {
       gatsbyImage(height: 1000 ,placeholder: BLURRED)
