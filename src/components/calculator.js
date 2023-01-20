@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Button from '../utilities/button'
 import * as styles from './calculator.module.css'
-
 const Calculator = ({ btnUrl, btnLabel }) => {
   const [purchase, setPurchase] = useState(500000)
   const [payment, setPayment] = useState(150000)

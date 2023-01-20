@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import * as styles from './footer.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -53,7 +53,7 @@ const Footer = () => (
             <br />
             Finance
           </div>
-        </div>
+       </div>
         <div className="text-gray-600 text-sm ">
           2021 Award winning Finance Advisor and Lorem ipsum dolor sit amet
         </div>
@@ -81,5 +81,6 @@ const Footer = () => (
     </div>
   </div>
 )
+      }
 
 export default Footer
