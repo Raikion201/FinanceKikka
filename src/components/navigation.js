@@ -10,8 +10,8 @@ const Navigation = () => (
         <div className='pl-2 md:pl-2 text-white font-bold text-sm md:text-lg inline-block'>Kinka<br/>Finance</div>
       </div>
       <div className='flex-1'></div>
-      <a href="#./" className='text-sm h-full flex items-center text-gray-300' >Services</a>
-      <a href="#./" className='text-sm h-full flex items-center text-gray-300'>Calculator</a>
+      <a href="#service" className='text-sm h-full flex items-center text-gray-300' >Services</a>
+      <a href="#calculator" className='text-sm h-full flex items-center text-gray-300'>Calculator</a>
       <div className='hidden md:block md:w-4'></div>
   </div>
 )

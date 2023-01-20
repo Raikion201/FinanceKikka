@@ -1,10 +1,9 @@
-import React from 'react'
+import React, {useEffect}  from 'react'
 import { GatsbyImage } from 'gatsby-plugin-image'
 import Navigation from './navigation'
 import Button from '../utilities/button'
-
 const Hero = ({ image, title, description, btnUrl, btnLabel }) => {
-  const descriptionParsed = JSON.parse(description)
+const descriptionParsed = JSON.parse(description)
   //   // raw description is data{ content : [
   //     {...,  content : [
   //      {

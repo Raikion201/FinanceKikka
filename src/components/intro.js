@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { GatsbyImage } from 'gatsby-plugin-image'
-
 const Intro = ({ data }) => {
   const textData = data.data
   const image = data.check.gatsbyImage

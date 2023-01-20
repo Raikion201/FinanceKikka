@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-blog-js-f86bde01a04268b697a6.js","mappings":"wKAQA,UANa,WACX,OACE,kCAEH,C","sources":["webpack://contentful-starter-gatsby-blog/./src/pages/blog.js"],"sourcesContent":["import React from 'react'\r\n\r\nconst blog = () => {\r\n  return (\r\n    <div>blog</div>\r\n  )\r\n}\r\n\r\nexport default blog"],"names":[],"sourceRoot":""}
