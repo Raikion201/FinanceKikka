@@ -1,12 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { GatsbyImage } from 'gatsby-plugin-image'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-AOS.init({
-  once: true
-});
 
 const Intro = ( {data} ) => {
+    useEffect (  () => {
+
+        AOS.init({
+            once: true
+        });
+    },[] )
    const textData = data.data
    const image = data.check.gatsbyImage
   return (

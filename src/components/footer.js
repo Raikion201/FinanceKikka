@@ -1,13 +1,10 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import * as styles from './footer.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter,faFacebook,faInstagram } from '@fortawesome/free-brands-svg-icons'
 import Logo from '../utilities/logo'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-AOS.init({
-  once: true
-});
 
 const data = [
   {
@@ -30,7 +27,14 @@ const data = [
   }
 ]
 
-const Footer = () => (
+const Footer = () => {
+  useEffect (  () => {
+
+    AOS.init({
+        once: true
+    });
+},[] )
+return ( 
     <div data-aos="fade-right"  className='mt-16 md:grid md:grid-cols-2'>
       <div className='md:order-2 grid grid-cols-3 items-center px-4'>
         {
@@ -79,5 +83,6 @@ const Footer = () => (
       </div>
     </div>
 )
+      }
 
 export default Footer

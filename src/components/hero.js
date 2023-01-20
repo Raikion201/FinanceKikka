@@ -1,13 +1,17 @@
-import React from 'react'
+import React, {useEffect}  from 'react'
 import { GatsbyImage } from 'gatsby-plugin-image'
 import Navigation from './navigation'
 import Button from '../utilities/button'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-AOS.init({
-  once: true
-});
+
 const Hero = ({ image, title, description,btnUrl,btnLabel }) => {
+  useEffect (  () => {
+
+    AOS.init({
+        once: true
+    });
+},[] )
   const descriptionParsed = JSON.parse(description)
 //   // raw description is data{ content : [
 //     {...,  content : [
